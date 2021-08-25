@@ -24,7 +24,6 @@
     <modules>
         <module>hello</module>
         <module>proxy</module>
-        <module>eureka</module>
     </modules>
 
     <dependencyManagement>
@@ -52,11 +51,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-websocket</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.tomcat.embed</groupId>
-            <artifactId>tomcat-embed-logging-juli</artifactId>
-            <version>${tomcat.version}</version>
         </dependency>
     </dependencies>
 
